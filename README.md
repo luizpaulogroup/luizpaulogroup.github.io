@@ -11,7 +11,7 @@
 
 This project was developed with the technologies:
 
--  [VS Code][vc]
+- [VS Code][vc]
 
 ---
 
