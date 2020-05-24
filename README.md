@@ -4,7 +4,7 @@
     Portfólio
 </h1>
 
-<h4 align="center">My Portfólio</a></h4>
+<h4 align="center">My Portfolio</a></h4>
 <p align="center"><a href="#rocket-technologies">Technologies</a></p>
 
 ## :rocket: Technologies
