@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="React logo" width="70px" height="50px" src="https://github.com/luizpaulogroup/react-native-github/blob/master/src/Gif/github.png" />
+    <img alt="React logo" width="65px" height="50px" src="https://github.com/luizpaulogroup/react-native-github/blob/master/src/Gif/github.png" />
     <br>
     Portfólio
 </h1>
