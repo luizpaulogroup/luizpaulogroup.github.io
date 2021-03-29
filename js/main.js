@@ -1,3 +1,3 @@
-setInterval(() => {
-    document.getElementById('date').innerHTML = `${new Date().toLocaleString()}`;
-}, 1000)
+// setInterval(() => {
+//     document.getElementById('date').innerHTML = `${new Date().toLocaleString()}`;
+// }, 1000)
