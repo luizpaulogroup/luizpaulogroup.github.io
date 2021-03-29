@@ -20,6 +20,7 @@ html{
     max-width: 700px;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -39,6 +40,57 @@ html{
     color: #D2D2D2;
 }
 
+.content .title{
+    text-align: center;
+    animation: title 4000ms infinite linear;
+}
+
+.content .languages{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .languages .language{
+    width: 20%;
+    margin: 10px;
+    padding: 25px;
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    animation: rotate 4000ms infinite linear;
+
+    color: #FFF;
+    font-size: 18px;
+}
+
+@keyframes title{
+    0% { 
+        color: indigo;
+    } 
+    50%{ 
+        color: slateblue;
+    }
+    100% { 
+        color: indigo;
+    }
+}
+
+@keyframes rotate{
+    0% { 
+        background-color: indigo;
+    } 
+    50%{ 
+        background-color: slateblue;
+    }
+    100% { 
+        background-color: indigo;
+    }
+}
+
 .footer{
     margin-top: 25px !important;
     max-width: 700px;
@@ -55,9 +107,28 @@ html{
     color: #D2D2D2;
     margin: 10px;
     text-decoration: none;
+    padding: 5px 20px;
+
+    border-radius: 5px;
+
+    animation: links 4000ms infinite linear;
+
+    font-size: 17px;
 }
 
 .footer #date{
     text-align: center;
     color: #FFF;
+}
+
+@keyframes links{
+    0% { 
+        background-color: indigo;
+    } 
+    50%{ 
+        background-color: slateblue;
+    }
+    100% { 
+        background-color: indigo;
+    }
 }
