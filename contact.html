@@ -11,7 +11,7 @@
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body class="index">
+<body class="contact">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
         <div class="container px-4 px-lg-5">
@@ -25,38 +25,54 @@
                 <ul class="navbar-nav ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">Sobre</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contato</a></li> -->
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contato</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Page Header-->
-    <header>
-        <div class="container position-relative px-4 px-lg-5">
+    <main>
+        <div class="container mt-5 px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="assets/img/luiz1.jpeg">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="site-heading">
-                                <h1>Luiz Paulo</h1>
-                                <p class="m-0">Desenvolvedor WEB. </p>
-                                <p class="m-0 mt-1 border-top">Conhecimento em PHP, JavaScript, NodeJs, VueJS, React, React Native,
-                                    HTML5, CSS3.</p>
-                                <p class="m-0 mt-1 border-top">Freelancer.</p>
+                    <div class="mt-5">
+                        <form class="row">
+                            <div class="col-md-12">
+                                <div class="form-floating">
+                                    <input class="form-control" id="name" type="text" placeholder="Informe seu nome..."
+                                        required autocomplete="off" />
+                                    <label for="name">Nome</label>
+                                </div>
                             </div>
-                        </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input class="form-control" id="email" type="email"
+                                        placeholder="Informe seu e-mail..." required autocomplete="off" />
+                                    <label for="email">E-mail</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input class="form-control" id="phone" type="tel"
+                                        placeholder="Informe seu telefone..." required autocomplete="off" />
+                                    <label for="phone">Telefone</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" id="message"
+                                        placeholder="Informe sua mensagem aqui..." style="height: 7rem" required
+                                        autocomplete="off"></textarea>
+                                    <label for="message">Mensagem</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mt-2 mb-2">
+                                <button class="btn btn-primary text-uppercase" type="submit">Enviar
+                                    mensagem</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <!-- Main Content-->
-    <main class="mt-5 container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-md-10 col-lg-8 col-xl-7"></div>
         </div>
     </main>
     <!-- Footer-->
