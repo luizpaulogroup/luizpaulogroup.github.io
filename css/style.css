@@ -1,6 +1,23 @@
-.page-home{
-    background-image: url(../assets/logo4.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
+.page-home {
+    background-color: #343A40;
+    /* background-image: url(../assets/logo5.jpeg); */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* background-color: #FFF; */
+    height: 520px !important;
+}
+
+.caption-header img {
+    width: 100px;
+    border: solid 2px #FFF;
     background-size: contain;
+}
+
+.caption-header h1{
+    font-size: 18px !important;
+}
+
+.caption-header h1{
+    font-size: 18px !important;
 }
